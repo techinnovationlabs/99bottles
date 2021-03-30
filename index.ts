@@ -1,5 +1,6 @@
-export default function add(a: number, b: number): number {
-  return a + b;
-}
+import generateLyrics from "./lyrics";
 
-console.log(add(10, 5));
+const initialValue = 99;
+
+let song: string = generateLyrics(initialValue);
+console.log(song);
