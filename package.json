@@ -1,0 +1,32 @@
+{
+  "name": "99bottles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "start": "ts-node index.ts",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.intuit.com:gmadar/99bottles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.13.10",
+    "@babel/preset-env": "7.13.10",
+    "@babel/preset-typescript": "7.13.0",
+    "@types/jest": "26.0.21",
+    "babel-jest": "26.6.3",
+    "jest": "26.6.3",
+    "prettier": "2.2.1",
+    "ts-jest": "26.5.4",
+    "ts-node": "9.1.1",
+    "typescript": "4.2.3"
+  }
+}
